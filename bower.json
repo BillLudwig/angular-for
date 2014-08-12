@@ -5,13 +5,13 @@
 	"main": "angular-for.js",
 	"author": "",
 	"license": "MIT",
-	"ignore": {
+	"ignore": [
 		"bower_components",
-			"node_modules",
-			"demo",
-			".gitignore",
-			".jshintrc"
-	},
+		"node_modules",
+		"demo",
+		".gitignore",
+		".jshintrc"
+	],
 	"devDependencies": {
 		"karma": "^0.12.21",
 		"karma-brackets": "^0.2.1",
