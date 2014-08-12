@@ -17,6 +17,6 @@
 		"karma-brackets": "^0.2.1",
 		"mocha": "^1.21.4",
 		"angular": "~1.2.16",
-		"angular-mocks": "~1.2.16",
+		"angular-mocks": "~1.2.16"
 	}
 }
