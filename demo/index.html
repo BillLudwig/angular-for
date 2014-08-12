@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>angular-for loop example</title>
+</head>
+
+<body data-ng-app="demoApp">
+	<h1>Angular For Loop Demo</h1>
+	<section class="mainContent container" role="main" data-ng-controller="demoCtrl">
+
+		<p>In Scope:
+			<select data-ng-model="loopCount">
+				<option data-ng-attr-ng-for="10" data-ng-value="$index">{{$index}}</option>
+			</select>
+		</p>
+
+		<table width="100%" border="1">
+			<tr data-ng-for="loopCount">
+				<th>{{$index}} of {{loopCount}}:</th>
+				<td>First: {{$first}}</td>
+				<td>Last: {{$last}}</td>
+				<td>Middle: {{$middle}}</td>
+				<td>Even: {{$even}}</td>
+			</tr>
+		</table>
+
+		<p>Int: 5</p>
+		<table width="100%" border="1">
+			<tr data-ng-for="5">
+				<th>{{$index}} of 5:</th>
+				<td>First: {{$first}}</td>
+				<td>Last: {{$last}}</td>
+				<td>Middle: {{$middle}}</td>
+				<td>Even: {{$even}}</td>
+			</tr>
+		</table>
+
+
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js "></script>
+	<script src="../angular-for.js"></script>
+	<script src="demo.js "></script>
+</body>
+
+</html>

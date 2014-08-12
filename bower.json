@@ -1,0 +1,15 @@
+{
+	"name": "angular-for",
+	"version": "1.0.0",
+	"description": "Simple Angular directive to allow For-Loop style functionality",
+	"main": "angular-for.js",
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"karma": "^0.12.21",
+		"karma-brackets": "^0.2.1",
+		"mocha": "^1.21.4",
+		"angular": "~1.2.16",
+		"angular-mocks": "~1.2.16",
+	}
+}
