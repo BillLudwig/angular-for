@@ -1,16 +1,21 @@
 {
 	"name": "angular-for",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Simple Angular directive to allow For-Loop style functionality",
 	"main": "angular-for.js",
 	"author": "",
 	"license": "MIT",
 	"ignore": [
 		"bower_components",
-		"node_modules",
 		"demo",
+		"node_modules",
 		".gitignore",
-		".jshintrc"
+		".jshintrc",
+		"angular-for.spec.js",
+		"gulpfile.js",
+		"karma.conf.js",
+		"LICENSE.md",
+		"README.md"
 	],
 	"devDependencies": {
 		"karma": "^0.12.21",

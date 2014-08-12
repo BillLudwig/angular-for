@@ -1,6 +1,6 @@
 {
 	"name": "angular-for",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Simple Angular directive to allow For-Loop style functionality",
 	"main": "angular-for.js",
 	"author": {
@@ -15,6 +15,9 @@
 		"mocha": "^1.21.4",
 		"karma-mocha": "^0.1.6",
 		"karma-phantomjs-launcher": "^0.1.4",
-		"chai": "^1.9.1"
+		"chai": "^1.9.1",
+		"gulp": "^3.8.7",
+		"gulp-concat": "^2.3.4",
+		"gulp-uglify": "^0.3.1"
 	}
 }
