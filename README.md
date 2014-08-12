@@ -22,7 +22,7 @@ Using an intiger stored as a $scope variable.
 
 The example below will iterate a number of times equal to the value of $scope.loopCount. If $scope.loopCount is changed the loop will update itself automatically.
 
-'''js
+```html
 <table width="100%" border="1">
 	<tr data-ng-for="loopCount">
 		<th>{{$index}} of {{loopCount}}:</th>
@@ -32,11 +32,11 @@ The example below will iterate a number of times equal to the value of $scope.lo
 		<td>Even: {{$even}}</td>
 	</tr>
 </table>
-'''
+```
 
 Passing an intiger directly.  The example below will loop 5 times.
 
-'''js
+```html
 <table width="100%" border="1">
 	<tr data-ng-for="5">
 		<th>{{$index}} of {{loopCount}}:</th>
@@ -46,4 +46,4 @@ Passing an intiger directly.  The example below will loop 5 times.
 		<td>Even: {{$even}}</td>
 	</tr>
 </table>
-'''
+```
